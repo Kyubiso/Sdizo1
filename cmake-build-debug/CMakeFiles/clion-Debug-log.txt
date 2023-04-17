@@ -1,0 +1,4 @@
+/home/kuba/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/223.8617.54/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/kuba/CLionProjects/Sdizo1 -B /home/kuba/CLionProjects/Sdizo1/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kuba/CLionProjects/Sdizo1/cmake-build-debug

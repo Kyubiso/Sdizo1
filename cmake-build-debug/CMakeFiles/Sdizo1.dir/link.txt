@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Sdizo1.dir/main.cpp.o CMakeFiles/Sdizo1.dir/Table.cpp.o CMakeFiles/Sdizo1.dir/stack.cpp.o CMakeFiles/Sdizo1.dir/List.cpp.o CMakeFiles/Sdizo1.dir/MaxHeap.cpp.o -o Sdizo1 
