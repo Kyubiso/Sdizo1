@@ -7,6 +7,8 @@
 #include <unistd.h>
 #include "stack.h"
 #include "Table.h"
+#include "MaxHeap.h"
+#include "List.h"
 
 using namespace std;
 
@@ -14,22 +16,13 @@ using namespace std;
 
 int opt;
 
-void createTable() {
-    Table table = *new Table();
-}
-
-void createStack() {
-    stack stos = *new stack();
-};
-
-
 int main() {
     mainMenu: // Etykieta do komendy goto
     cout <<
          "===MENU GŁÓWNE===" << endl <<
          "[1] Tabela" << endl <<
-         "[2] Stos" << endl <<
-         "[]" << endl <<
+         "[2] Lista" << endl <<
+         "[3] Kopiec" << endl <<
          "[]" << endl <<
          "[]" << endl <<
          "[6] Test" << endl <<
@@ -39,10 +32,13 @@ int main() {
 
     switch (opt) {
         case 1:
-            createTable();
+            Table();
             break;
         case 2:
-            createStack();
+            List();
+            break;
+        case 3:
+            MaxHeap();
             break;
         case 6:
             struct timespec ts;

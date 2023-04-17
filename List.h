@@ -33,7 +33,7 @@ public:
 
     void deleteValue();
 
-    List() = default;
+    List();
 
     ~List();
 
@@ -44,6 +44,8 @@ public:
     void deleteNode(Node *node);
 
     void clear();
+
+    void displayMenu();
 };
 
 

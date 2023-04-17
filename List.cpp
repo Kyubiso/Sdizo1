@@ -142,4 +142,48 @@ bool List::contains(int num) { //Sprawdzanie czy lista zawiera dany element
         }
     }
 
+    void List::displayMenu() {
+    cout<<
+    "==========MENU LISTA=========="<<endl<<
+    "[1]Dodaj na poczatku"<<endl<<
+    "[2]Dodaj na koncu"<<endl<<
+    "[3]Dodaj w srodku"<<endl<<
+    "[4]Usun z poczatku"<<endl<<
+    "[5]Usun z konca"<<endl<<
+    "[6]Usun ze srodka"<<endl<<
+    "[7]Wyczysc"<<endl;
+        switch (cin.get()) {
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+
+                break;
+        }
+}
+List::List() {displayMenu();}
+
+List::~List() {
+    Node* temp=head;
+    while (head) {
+        head=head->next;
+        ::free(temp);
+        temp= nullptr;
+    }
+}
 
