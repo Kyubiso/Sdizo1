@@ -12,7 +12,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kuba/CLionProjects/Sdizo1/MaxHeap.cpp" "CMakeFiles/Sdizo1.dir/MaxHeap.cpp.o" "gcc" "CMakeFiles/Sdizo1.dir/MaxHeap.cpp.o.d"
   "/home/kuba/CLionProjects/Sdizo1/Table.cpp" "CMakeFiles/Sdizo1.dir/Table.cpp.o" "gcc" "CMakeFiles/Sdizo1.dir/Table.cpp.o.d"
   "/home/kuba/CLionProjects/Sdizo1/main.cpp" "CMakeFiles/Sdizo1.dir/main.cpp.o" "gcc" "CMakeFiles/Sdizo1.dir/main.cpp.o.d"
-  "/home/kuba/CLionProjects/Sdizo1/stack.cpp" "CMakeFiles/Sdizo1.dir/stack.cpp.o" "gcc" "CMakeFiles/Sdizo1.dir/stack.cpp.o.d"
   )
 
 # Targets to which this target links.

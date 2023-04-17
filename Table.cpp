@@ -188,15 +188,28 @@ void Table::displayMenu() {
          "[2] Wczytaj Tabelę z pliku" << endl <<
          "[3] Usuń element z Tabeli" << endl <<
          "[4] Usuń Tabelę" << endl <<
+         "[5] Wyjdź"<<endl<<
          "==============================" << endl << ">";
     int opt;
     cin >> opt;
     switch (opt) {
         case 1:
             generateTable();
-            break;
+            goto menu;
         case 2:
             loadFromFile();
+            goto menu;
+        case 3:
+            cout<<"Podaj index: ";
+            int index;
+            cin>>index;
+            deleteAt(index);
+            goto menu;
+        case 4:
+            clear();
+            goto menu;
+        case 5:
+            break;
         default:
             cout << "Nie ma takiej opcji" << endl;
             goto menu;

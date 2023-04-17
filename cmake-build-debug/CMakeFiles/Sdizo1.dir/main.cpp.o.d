@@ -153,7 +153,6 @@ CMakeFiles/Sdizo1.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /home/kuba/CLionProjects/Sdizo1/stack.h \
- /home/kuba/CLionProjects/Sdizo1/Table.h \
+ /usr/include/linux/close_range.h /home/kuba/CLionProjects/Sdizo1/Table.h \
  /home/kuba/CLionProjects/Sdizo1/MaxHeap.h \
  /home/kuba/CLionProjects/Sdizo1/List.h

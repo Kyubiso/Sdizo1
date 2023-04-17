@@ -9,7 +9,7 @@
 
 class MaxHeap {
 private:
-    Table data;
+   Table data;
 public:
     MaxHeap();
     ~MaxHeap();

@@ -5,7 +5,6 @@
 #include <stdint.h>
 #include <time.h>
 #include <unistd.h>
-#include "stack.h"
 #include "Table.h"
 #include "MaxHeap.h"
 #include "List.h"
@@ -26,19 +25,23 @@ int main() {
          "[]" << endl <<
          "[]" << endl <<
          "[6] Test" << endl <<
+         "[7] Wyjdź"<< endl <<
          "=================" << endl << "<";
 
     cin >> opt;
-
     switch (opt) {
         case 1:
             Table();
-            break;
+            goto mainMenu;
         case 2:
             List();
-            break;
+            goto mainMenu;
         case 3:
             MaxHeap();
+            goto mainMenu;
+        case 4:
+            break;
+        case 5:
             break;
         case 6:
             struct timespec ts;
@@ -47,7 +50,9 @@ int main() {
             usleep(100);
             clock_gettime(CLOCK_REALTIME, &te);
             cout << te.tv_nsec - ts.tv_nsec << endl;
-            break;
+            goto mainMenu;
+        case 7:
+            return 0;
         default:
             cout << "Nie ma takiej liczby" << endl;
             goto mainMenu;

@@ -103,12 +103,6 @@
 		<Unit filename="/home/kuba/CLionProjects/Sdizo1/main.cpp">
 			<Option target="Sdizo1"/>
 		</Unit>
-		<Unit filename="/home/kuba/CLionProjects/Sdizo1/stack.cpp">
-			<Option target="Sdizo1"/>
-		</Unit>
-		<Unit filename="/home/kuba/CLionProjects/Sdizo1/stack.h">
-			<Option target="Sdizo1"/>
-		</Unit>
 		<Unit filename="/home/kuba/CLionProjects/Sdizo1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

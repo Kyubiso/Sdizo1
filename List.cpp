@@ -154,25 +154,25 @@ bool List::contains(int num) { //Sprawdzanie czy lista zawiera dany element
     "[7]Wyczysc"<<endl;
         switch (cin.get()) {
             case 1:
-
+                addFirst();
                 break;
             case 2:
-
+                addLast();
                 break;
             case 3:
-
+                addInside();
                 break;
             case 4:
-
+                removeFirst();
                 break;
             case 5:
-
+                removeLast();
                 break;
             case 6:
-
+                removeInside();
                 break;
             case 7:
-
+                clear();
                 break;
         }
 }

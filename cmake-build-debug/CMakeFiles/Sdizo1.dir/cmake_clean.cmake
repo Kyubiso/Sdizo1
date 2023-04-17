@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sdizo1.dir/Table.cpp.o.d"
   "CMakeFiles/Sdizo1.dir/main.cpp.o"
   "CMakeFiles/Sdizo1.dir/main.cpp.o.d"
-  "CMakeFiles/Sdizo1.dir/stack.cpp.o"
-  "CMakeFiles/Sdizo1.dir/stack.cpp.o.d"
   "Sdizo1"
   "Sdizo1.pdb"
 )

@@ -17,7 +17,7 @@ void MaxHeap::add(int num) {
 
 void MaxHeap::deleteAt(size_t index) {
     if (index >= data.getSize()) {
-        cout << "Indeks poza kopca" << endl;
+        cout << "Indeks poza kopcem" << endl;
     }
 }// 0 domyś;nie root
 void MaxHeap::display() {
@@ -104,12 +104,43 @@ void MaxHeap::fixDown(size_t pos) {
 }
 
 void MaxHeap::displayMenu() {
+    int number;
+    menu:
     cout<<
     "=============Kopiec============="<<endl<<
     "[1]Dodaj element"<<endl<<
-    "[2]Usun element"<<endl<<
-    "[3]Wyświetl stos"<<endl<<
-    "[4]Usun element o danym indeksie"<<endl;
+    "[2]Usuń element"<<endl<<
+    "[3]Wyświetl Kopiec"<<endl<<
+    "[4]Usuń element o danym indeksie"<<endl<<
+    "[5]Wyjdź"<<endl;
+
+    int opt;
+    cout<<"<";
+    cin>>opt;
+
+    switch (opt) {
+        case 1:
+            cout<<"Wprowadź liczbe: ";
+            cin>>number;
+            add(number);
+            goto menu;
+        case 2:
+            cout << "Który element usunąć? ";
+            cin>>number;
+            deleteValue(number);
+            goto menu;
+        case 3:
+            display();
+            goto menu;
+        case 4:
+            cout << "Podaj indeks: ";
+            cin>>number;
+            deleteAt(number);
+            goto menu;
+        case 5:
+            break;
+
+    }
 }
 
 #include "MaxHeap.h"
